@@ -1,27 +1,46 @@
-# Fitness E-Commerce App
+# Full‑Stack Fitness E‑commerce App
 
-A full-stack fitness e-commerce application built with Node.js, Express, and SQLite. This project is being developed as part of my software engineering portfolio to strengthen backend development, database integration, and full-stack project structure.
+A full‑stack fitness e‑commerce application built with Node.js, Express, and SQLite.  
+This project is part of my software engineering portfolio and is focused on strengthening my backend development, database integration, and full‑stack project structure skills.
+
+---
 
 ## Status
 
-This project is currently in development. Core backend structure, routing, and database setup are in place, and additional e-commerce features are being added over time.
+This project is currently **in development**.
+
+- Core backend structure, routing, and database setup are in place.
+- Additional e‑commerce features are being added over time as I progress.
+
+---
 
 ## Overview
 
-The goal of this project is to build a fitness themed online store that allows users to browse products through a custom backend application. It is also intended to demonstrate practical experience with Express routing, middleware, environment configuration, and SQLite database usage.
+The goal of this project is to build a fitness‑themed online store that allows users to browse products through a custom backend application.
 
-## Tech Stack
+This app is designed to demonstrate practical experience with:
 
-- Node.js
-- Express
-- SQLite (`better-sqlite3`)
-- HTML
-- CSS
-- JavaScript
-- dotenv
-- cors
-- bcryptjs
-- jsonwebtoken
+- Express routing and middleware
+- Environment configuration
+- SQLite database usage
+- Organizing a real‑world full‑stack project
+
+---
+
+## Tech stack
+
+- Node.js  
+- Express  
+- SQLite (better‑sqlite3)  
+- HTML  
+- CSS  
+- JavaScript  
+- dotenv  
+- cors  
+- bcryptjs  
+- jsonwebtoken  
+
+---
 
 ## Installation
 
@@ -31,7 +50,9 @@ cd fullstack-ecommerce-app
 npm install
 ```
 
-## Running the App
+---
+
+## Running the app
 
 ```bash
 npm start
@@ -39,19 +60,17 @@ npm start
 
 The application starts from:
 
-```bash
-src/server.js
-```
+- `src/server.js`
 
 Then open your browser and visit:
 
-```bash
-http://localhost:3000
-```
+- `http://localhost:3000`
 
-## Project Structure
+---
 
-```bash
+## Project structure
+
+```text
 fitness-ecommerce/
 ├── public/              # Static assets such as CSS, images, and client-side JavaScript
 ├── src/                 # Server, routes, middleware, config, and database logic
@@ -60,28 +79,41 @@ fitness-ecommerce/
 ├── package-lock.json
 ```
 
-## Current Focus
+---
 
-- Building out backend routes
-- Connecting the application to SQLite
-- Structuring the project like a real full-stack application
-- Improving the frontend product display
+## Current focus
 
-## Future Improvements
+- Building out backend routes  
+- Connecting the application to SQLite  
+- Structuring the project like a real full‑stack application  
+- Improving the frontend product display  
 
-- Add user registration and login
-- Implement JWT-based authentication
-- Build a shopping cart feature
-- Add checkout functionality
-- Create admin tools for managing products
-- Improve responsive styling across devices
-- Add search and filtering for products
-- Deploy the app for live demo access
+---
 
-## What I Learned
+## Planned improvements
 
-This project is helping me strengthen my understanding of backend application structure, Express routing, database integration, and organizing a full-stack project for portfolio use.
+- Add user registration and login  
+- Implement JWT‑based authentication  
+- Build a shopping cart feature  
+- Add checkout functionality  
+- Create admin tools for managing products  
+- Improve responsive styling across devices  
+- Add search and filtering for products  
+- Deploy the app for live demo access  
+
+---
+
+## What I'm learning
+
+This project is helping me strengthen my understanding of:
+
+- Backend application structure  
+- Express routing and middleware patterns  
+- Database integration with SQLite  
+- Organizing a full‑stack project for portfolio and production use  
+
+---
 
 ## Author
 
-Patrick McLaughlin
+**Patrick McLaughlin**
