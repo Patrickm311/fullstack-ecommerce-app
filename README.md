@@ -1,44 +1,56 @@
-# Full‑Stack Fitness E‑commerce App
+# Full-Stack Fitness E-commerce App
 
-A full‑stack fitness e‑commerce application built with Node.js, Express, and SQLite.  
-This project is part of my software engineering portfolio and is focused on strengthening my backend development, database integration, and full‑stack project structure skills.
+A full-stack fitness e-commerce application built with Node.js, Express, and SQLite.
+
+This project is part of my software engineering portfolio and is designed to strengthen my skills in backend development, RESTful routing, database integration, authentication, and full-stack application structure.
 
 ---
 
 ## Status
 
-This project is currently **in development**.
+This project is currently in active development.
 
-- Core backend structure, routing, and database setup are in place.
-- Additional e‑commerce features are being added over time as I progress.
+The backend foundation, routing structure, middleware, and database setup are in place, and additional e-commerce functionality is being added over time.
 
 ---
 
 ## Overview
 
-The goal of this project is to build a fitness‑themed online store that allows users to browse products through a custom backend application.
+The goal of this project is to build a fitness-themed online store where users can browse products, create accounts, and interact with a custom backend application.
 
-This app is designed to demonstrate practical experience with:
+This project is being built to demonstrate practical experience with:
 
 - Express routing and middleware
-- Environment configuration
-- SQLite database usage
-- Organizing a real‑world full‑stack project
+- Environment-based configuration
+- SQLite database integration
+- Authentication with JWT
+- Structuring a real-world full-stack application
 
 ---
 
-## Tech stack
+## Current Features
 
-- Node.js  
-- Express  
-- SQLite (better‑sqlite3)  
-- HTML  
-- CSS  
-- JavaScript  
-- dotenv  
-- cors  
-- bcryptjs  
-- jsonwebtoken  
+- Express server setup
+- Organized route structure
+- SQLite integration with `better-sqlite3`
+- Environment variable support with `dotenv`
+- Middleware support with `cors`
+- Authentication-related packages installed for future implementation
+
+---
+
+## Tech Stack
+
+- Node.js
+- Express
+- SQLite (`better-sqlite3`)
+- HTML
+- CSS
+- JavaScript
+- dotenv
+- cors
+- bcryptjs
+- jsonwebtoken
 
 ---
 
@@ -52,13 +64,25 @@ npm install
 
 ---
 
-## Running the app
+## Environment Variables
+
+Create a `.env` file in the root of the project and add any required environment variables.
+
+Example:
+
+```env
+PORT=3000
+JWT_SECRET=your_jwt_secret_here
+```
+---
+
+## Running the App
 
 ```bash
 npm start
 ```
 
-The application starts from:
+The server starts from:
 
 - `src/server.js`
 
@@ -68,11 +92,11 @@ Then open your browser and visit:
 
 ---
 
-## Project structure
+## Project Structure
 
 ```text
-fitness-ecommerce/
-├── public/              # Static assets such as CSS, images, and client-side JavaScript
+fullstack-ecommerce-app/
+├── public/              # Static frontend files
 ├── src/                 # Server, routes, middleware, config, and database logic
 ├── .gitignore
 ├── package.json
@@ -81,36 +105,37 @@ fitness-ecommerce/
 
 ---
 
-## Current focus
+## Current Focus
 
-- Building out backend routes  
-- Connecting the application to SQLite  
-- Structuring the project like a real full‑stack application  
-- Improving the frontend product display  
-
----
-
-## Planned improvements
-
-- Add user registration and login  
-- Implement JWT‑based authentication  
-- Build a shopping cart feature  
-- Add checkout functionality  
-- Create admin tools for managing products  
-- Improve responsive styling across devices  
-- Add search and filtering for products  
-- Deploy the app for live demo access  
+- Expanding backend API routes
+- Connecting product and user data to SQLite
+- Improving frontend product display
+- Strengthening the overall full-stack architecture
 
 ---
 
-## What I'm learning
+## Planned Features
+
+- User registration and login
+- JWT-based authentication
+- Shopping cart functionality
+- Checkout flow
+- Admin tools for product management
+- Search and product filtering
+- Improved responsive design
+- Deployment for live demo access
+
+---
+
+## What I'm Learning
 
 This project is helping me strengthen my understanding of:
 
-- Backend application structure  
-- Express routing and middleware patterns  
-- Database integration with SQLite  
-- Organizing a full‑stack project for portfolio and production use  
+- Backend application architecture
+- Express routing and middleware patterns
+- Database integration with SQLite
+- Authentication workflows
+- Building full-stack portfolio projects with scalable structure
 
 ---
 
