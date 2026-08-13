@@ -16,6 +16,7 @@ app.use(express.static(path.join(__dirname, "..", "public")));
 
 // API routes
 app.use("/api/products", require("./routes/products"));
+app.use("/api/cart", require("./routes/cart"));
 
 // Test route
 app.get("/api/test", (req, res) => {
